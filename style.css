@@ -1,15 +1,37 @@
 div{
     text-align: center;
+    position: fixed;  left: 0; right: 0;
+    
 }
-nav{
+a, nav{
     text-align: center;
+    background-color: #b7dfe8;
+    padding: 0,2%;
 }
 p{
     text-align: center;
+    padding: 6%;
 }
 h1{
     text-align: center;
 }
 footer{
     position: fixed; bottom: 0;
+    background-color: #b7dfe8;
+    size: 0,10%;
+}
+
+body{
+    background-color: #b7dfe8;
+    background-repeat: no-repeat;
+    font-family: "Overpass";
+    font-size: 100%;
+    color: black;
+}
+header{
+    position: fixed; top: 0 ;
+    text-align: center;
+}
+article{
+    background-position: 30%; 
 }
