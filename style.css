@@ -3,7 +3,7 @@ header a{
     min-height: 30%;
     text-align: center;
     padding-top: 2em;
-   
+    font-family: 'Tiny5';
     padding: 2em;
     font-size: 130%;
     color: #b7dfe8;
@@ -27,6 +27,7 @@ body h1{
     margin-left: 1em;
     color: black;
     padding-top: 1em;
+    font-family: 'Tiny5';
 
 }
 body h2,body h3{
@@ -137,9 +138,19 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    float: left;
-    max-width: 50em;
-    max-height: 50em;
+    
+    max-width: 40em;
+    max-height: 40em;
+}
+table, th, td{
+    width: 50%;
+    text-align: center;
+    font-size: 120%;
+    color: black;
+    margin-left: 25%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: 0.2em solid; 
 }
 
 
