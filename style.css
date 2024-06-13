@@ -3,15 +3,14 @@ header a{
     min-height: 30%;
     text-align: center;
     padding-top: 2em;
-    margin-right: 1em;
-    margin-left: 1em;
-    padding: 3em;
+   
+    padding: 2em;
     font-size: 130%;
     color: #b7dfe8;
 }
 p{
     text-align: center;
-    font-size: 150%;
+    font-size: 130%;
     margin-top: 0%;
     margin-bottom: 0%;
     padding: 1em;
@@ -32,7 +31,7 @@ body h1{
 }
 body h2,body h3{
     text-align: center;
-    font-size: 130%;
+    font-size: 140%;
     font-weight: 20em;
     font-style: normal;
     margin-right: 1em;
@@ -42,8 +41,9 @@ body h2,body h3{
 
 }
 footer{
+    max-height: 6%;
     position: fixed; bottom: 0;
-    padding: 0.5em;
+    padding: 0.5;
     text-align: center;
     color: #b7dfe8;
     background-image: url(./images/background02.jpg);
@@ -86,6 +86,7 @@ main{
 }
 code, pre{
     font-size: 120%;
+    text-align: left;
    
 }
 li.main_menu {
@@ -100,6 +101,7 @@ html{
     display: block;
     background-color: #b7dfe8;
     height: 100%;
+    overflow-y: scroll;
 }
 body ul{
     
@@ -121,4 +123,23 @@ body ol{
     margin-left: 1em;
     color: black;
 }
+a, body{
+    text-align: center;
+    font-size: 120%;
+    font-weight: 20em;
+    font-style: normal;
+    margin-right: 1em;
+    margin-left: 1em;
+    color: black;
+    
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    float: left;
+    max-width: 50em;
+    max-height: 50em;
+}
+
 
