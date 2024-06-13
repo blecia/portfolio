@@ -13,8 +13,9 @@ p{
     margin-top: 0%;
     margin-bottom: 0%;
     padding: 1em;
+    color: black;
 
-
+ 
 }
 h1{
     text-align: center;
@@ -23,12 +24,12 @@ h1{
     font-style: normal;
     margin-right: 1em;
     margin-left: 1em;
-    
+    color: black;
 
 }
 footer{
     position: fixed; bottom: 0;
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
     color: #b7dfe8;
     background-image: url(./images/background02.jpg);
@@ -37,8 +38,9 @@ footer{
 }
 
 body{
+    min-height: 100%;
     background-color: #b7dfe8;
-    background-repeat: no-repeat;
+  
     font-family: "Overpass", serif;
     margin: 0%;
     
@@ -51,10 +53,13 @@ header{
     
     position: fixed;  left: 0; right: 0;
 }
+footer p{
+    color: #b7dfe8;
+}
 
 main{
-    margin-top: 5em;
-   background-color: #b7dfe8;
+     margin-top: 5em;
+   
   
     
 }
@@ -69,5 +74,9 @@ iframe{
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
+}
+html{
+    background-color: #b7dfe8;
+    height: 100%;
 }
 
